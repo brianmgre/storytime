@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-
-// import Nav from './Nav.js';
 import HomeContainer from './HomeContainer';
-import Footer from './Footer';
 import { storyData } from '../websiteData';
 
 
@@ -23,7 +20,6 @@ class HomePage extends Component {
             <div>
                 {this.state.data.map(data => (
                     <HomeContainer data={data} />))}
-                <Footer />
             </div>
         )
 

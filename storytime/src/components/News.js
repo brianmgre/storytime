@@ -7,7 +7,7 @@ const News = props => {
 
     return (
         <div>
-            <h1>NEWS</h1>
+            <h1>NEWS &amp; Updates</h1>
         </div>
     )
 };
