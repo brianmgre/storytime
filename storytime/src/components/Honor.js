@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Honor = props => {
     console.log('Honor', props);
 

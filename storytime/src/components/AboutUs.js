@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 const AboutUs = props => {
     console.log('AboutUs', props);
 

@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 const Features = props => {
     console.log('Features', props);
 

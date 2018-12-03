@@ -1,15 +1,37 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { faq } from '../websiteData';
 
 
+class FaqPage extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            faqData: [],
+        };
 
-const FaqPage = props => {
-    console.log('FaqPage', props);
+    };
 
-    return (
-        <div>
-            <h1>heyo</h1>
-        </div>
-    )
+    componentDidMount() {
+        this.setState({ faqData: faq })
+    };
+
+    render() {
+
+        console.log('state', this.state);
+        return (
+
+            <div>
+                {this.state.faqData.map(faq =>
+                    <div key={faq.question}>
+                        {faq.question}
+                        {faq.answer}
+
+                    </div>
+                )}
+            </div>
+        )
+    };
 };
+
 
 export default FaqPage;

@@ -12,7 +12,6 @@ class HomePage extends Component {
         this.state = {
             data: [],
         };
-
     };
 
     componentDidMount() {
@@ -20,10 +19,8 @@ class HomePage extends Component {
     };
 
     render() {
-
-        console.log('state', this.state);
         return (
-            
+
             <div>
                 {this.state.data.map(data => (
                     <HomeContainer data={data} />))}

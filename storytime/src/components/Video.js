@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 const Video = props => {
     console.log('Video', props);
 
