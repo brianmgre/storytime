@@ -8,7 +8,6 @@ class FaqPage extends Component {
         this.state = {
             faqData: [],
         };
-
     };
 
     componentDidMount() {
@@ -16,8 +15,6 @@ class FaqPage extends Component {
     };
 
     render() {
-
-        console.log('state', this.state);
         return (
 
             <div>

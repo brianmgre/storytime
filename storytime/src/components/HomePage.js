@@ -20,7 +20,6 @@ class HomePage extends Component {
 
     render() {
         return (
-
             <div>
                 {this.state.data.map(data => (
                     <HomeContainer data={data} />))}

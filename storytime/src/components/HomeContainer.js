@@ -8,7 +8,6 @@ import Honor from './Honor';
 const HomeContainer = props => {
     return (
         <div>
-
             <Intro data={props.data} />
             <Features data={props.data} />
             <Video data={props.data} />
