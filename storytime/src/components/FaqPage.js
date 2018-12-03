@@ -16,13 +16,12 @@ class FaqPage extends Component {
 
     render() {
         return (
-
             <div>
+                <h1>FAQ</h1>
                 {this.state.faqData.map(faq =>
                     <div key={faq.question}>
-                        {faq.question}
-                        {faq.answer}
-
+                        <h4> {faq.question}</h4>
+                        <p>{faq.answer}</p>
                     </div>
                 )}
             </div>
