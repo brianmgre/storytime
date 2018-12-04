@@ -4,7 +4,7 @@ const Honor = props => {
     console.log('Honor', props);
 
     return (
-        <div className='stHonor'>
+        <div className='stHonor'id='honor'>
             <img src='https://readstorytime.com/images/Folds%20of%20honor-min.png' className="aboutusIpad" alt="stIpad" />
             <p>{props.data.Folds}</p>
         </div>

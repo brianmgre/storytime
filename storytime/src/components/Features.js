@@ -5,7 +5,7 @@ const Features = props => {
     console.log('Features', props);
 
     return (
-        <div className='features-section'>
+        <div className='features-section' id='features'>
             <h2>StoryTime</h2>
             <p>{props.data.featDesc}</p>
             <div className='featureDetails'>

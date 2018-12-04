@@ -81,12 +81,6 @@ export const updatesNews = [
         text: 'Home Run Sitters aims to provide the highest quality in-home child care through extensive screening, background checks, Non-Disclosure Agreements, and CPR + First Aid certifications. Our agency offers professional sitters to professional families. Last minute sits, relocation needs or just your occasional "date night" our agency has the expertise to handle your requests. Allow Home Run Sitters the opportunity to prove why we are the best fit for your family, book today.'
     },
     {
-        title: 'How StoryTime Works!',
-        date: '1.24.2017',
-        imgUrl: '',
-        text: ''
-    },
-    {
         title: 'StoryTime Wins at Reimagine Education Conference Sponsored by Wharton',
         date: '1.06.2017',
         imgUrl: 'https://readstorytime.com/images/Ones-to-watch-Storytime.png',
