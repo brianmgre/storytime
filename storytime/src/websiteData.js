@@ -66,3 +66,36 @@ export const faq = [
         answer: "A. For a phone: Swipe your figure across the screen and the page will turn. For a tablet: If you see an arrow you can touching on the arrow and the page will turn. No arrow? use your finger to turn the page. All devices: All pages can be turned by touching the far edge of the page.",
     }
 ];
+
+export const updatesNews = [
+    {
+        title: 'Folds of Honor',
+        date: '5.21.2017',
+        imgUrl: 'https://readstorytime.com/images/Folds%20of%20honor-min.png',
+        text: 'We are proud to announce that we have partnered with Folds of Honor because we believe in helping those who have given the ultimate sacrifice to ensure our freedom. Folds of Honor provides millions of dollars worth of scholarships to military families. StoryTime will donate a portion of each subscription to Folds of Honor to support our common goal of helping the lives of veterans and their families. Your subscription will not only help your child and family, but also a military family in need.'
+    },
+    {
+        title: 'Home Run Sitters',
+        date: '5.11.2017',
+        imgUrl: 'https://readstorytime.com/images/HRS_Logo.png',
+        text: 'Home Run Sitters aims to provide the highest quality in-home child care through extensive screening, background checks, Non-Disclosure Agreements, and CPR + First Aid certifications. Our agency offers professional sitters to professional families. Last minute sits, relocation needs or just your occasional "date night" our agency has the expertise to handle your requests. Allow Home Run Sitters the opportunity to prove why we are the best fit for your family, book today.'
+    },
+    {
+        title: 'How StoryTime Works!',
+        date: '1.24.2017',
+        imgUrl: '',
+        text: ''
+    },
+    {
+        title: 'StoryTime Wins at Reimagine Education Conference Sponsored by Wharton',
+        date: '1.06.2017',
+        imgUrl: 'https://readstorytime.com/images/Ones-to-watch-Storytime.png',
+        text: "We hope everyone had a Happy holiday season as well as a happy New Year! StoryTime finished 2016 on an incredibly high note; StoryTime is proud to announce that over 500 new children's book titles have been added to our library and StoryTime was awarded the 'One to Watch' award at the Reimagine Education conference cosponsored by Wharton School of the University of Pennsylvania as well as the SEI Center for Advanced Studies in Management. The conference is a global award ceremony for those organizations that produce 'innovative education pedagogies [for] enhancing learning and employability'. Brian Gregorius, president and co-founder of StoryTime, stated that he is 'humbled and grateful for the award' and that it 'is a sign of bigger things to come for StoryTime' in regards to receiving the award. It is certainly an exciting time of the StoryTime team with more updates coming soon!"
+    },
+    {
+        title: 'StoryTime Update',
+        date: '11.04.2016',
+        imgUrl: 'https://readstorytime.com/images/Publishers.jpg',
+        text: "There are some big developments happening at StoryTime as of recently! First, StoryTime has added two new publishers, Cuento de Luz and Peachtree Publishers. With Cuento de Luz, StoryTime is adding not only children’s books written in English, but also award winning books in Spanish. Brian Gregorius, the CEO of StoryTime, was especially excited about the addition, stating that 'it will help children develop their bilingual skills as well as preparing them for their school's curriculum.'Also, StoryTime has been named as a finalist for this years Mobileys! The Mobileys is an 'annual national competition [that] recognizes and supports early-stage mobile entrepreneurs who make the world a better place.' The people behind StoryTime are grateful for the honor and are excited for the final results of the competition. If you would like to help StoryTime place in this competition, please visit The Mobileys and place your vote for StoryTime as the People’s Choice award."
+    }
+];
