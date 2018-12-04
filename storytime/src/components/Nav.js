@@ -19,7 +19,7 @@ const Nav = props => {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={933}
                     to='features'
                     smooth={true}>
                     <NavLink to='/'>Features</NavLink>
@@ -29,7 +29,7 @@ const Nav = props => {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={933}
                     to='video'
                     smooth={true}>
                     <NavLink to='/'>Video</NavLink>
@@ -39,7 +39,7 @@ const Nav = props => {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={933}
                     to='aboutUs'
                     smooth={true}>
                     <NavLink to='/'>About Us</NavLink>
@@ -49,7 +49,7 @@ const Nav = props => {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={933}
                     to='honor'
                     smooth={true}>
                     <NavLink to='/'>Honor</NavLink>
