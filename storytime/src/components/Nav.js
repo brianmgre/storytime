@@ -8,7 +8,7 @@ import News from './News';
 const Nav = props => {
     console.log('Nav', props)
     return (
-        <div>
+        <div className = 'navContainer'>
             <NavLink to='/'>
                 <img src='https://readstorytime.com/images/logo_nav@2x.png'
                     className="storyTimeLogo" alt="logo" />
@@ -65,8 +65,8 @@ const Nav = props => {
                 </Switch>
             </section>
         </div>
-    )
-}
+    );
+};
 
 
 
