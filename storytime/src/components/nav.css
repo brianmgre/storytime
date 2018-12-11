@@ -1,0 +1,25 @@
+.logo-nav-container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: 20px 3%;
+}
+
+.storyTimeLogo{
+    width: 60%;
+}
+
+nav{
+    display: flex;
+    width: 43%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+}

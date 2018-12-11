@@ -4,11 +4,13 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import HomePage from './HomePage';
 import FaqPage from './FaqPage';
 import News from './News';
+import './nav.css';
 
 const Nav = props => {
     console.log('Nav', props)
     return (
         <div className = 'navContainer'>
+            <div className='logo-nav-container'>
             <NavLink to='/'>
                 <img src='https://readstorytime.com/images/logo_nav@2x.png'
                     className="storyTimeLogo" alt="logo" />
@@ -57,6 +59,7 @@ const Nav = props => {
                 <NavLink to='/faq'>FAQ</NavLink>
                 <NavLink to='/news'> News</NavLink>
             </nav>
+            </div>
             <section>
                 <Switch>
                     <Route exact path='/' component={HomePage} />
