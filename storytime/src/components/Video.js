@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../css/video.css';
 
 const Video = props => {
     console.log('Video', props);

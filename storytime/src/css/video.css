@@ -1,0 +1,16 @@
+.video {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.video h2 {
+    margin: 20px 0 45px 0;
+}
+
+.storyVideo {
+    width: 70%;
+    height: 600px;
+    padding: 45px 0;
+}
