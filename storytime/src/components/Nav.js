@@ -19,7 +19,6 @@ const Nav = props => {
                 <Link
                     activeClass="active"
                     spy={true}
-                    smooth={true}
                     offset={-70}
                     duration={933}
                     to='features'
@@ -29,7 +28,6 @@ const Nav = props => {
                 <Link
                     activeClass="active"
                     spy={true}
-                    smooth={true}
                     offset={-70}
                     duration={933}
                     to='video'
@@ -39,7 +37,6 @@ const Nav = props => {
                 <Link
                     activeClass="active"
                     spy={true}
-                    smooth={true}
                     offset={-70}
                     duration={933}
                     to='aboutUs'
@@ -49,7 +46,6 @@ const Nav = props => {
                 <Link
                     activeClass="active"
                     spy={true}
-                    smooth={true}
                     offset={-70}
                     duration={933}
                     to='honor'

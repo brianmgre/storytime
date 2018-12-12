@@ -1,0 +1,21 @@
+.features-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.features-intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 3%;
+}
+
+.features-intro h2 {
+    padding: 30px 0;
+}
+
+.features-intro p {
+    padding: 30px 0;
+}
