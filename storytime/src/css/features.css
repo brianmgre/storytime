@@ -9,7 +9,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 30px 3%;
+    padding: 30px 0;
 }
 
 .features-intro h2 {
@@ -18,4 +18,29 @@
 
 .features-intro p {
     padding: 30px 0;
+}
+
+.featureDetails {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.features-column {
+    flex-direction: column;
+    width: 30%;
+}
+
+.storyTimeIphone{
+    width: 30%;
+    height: 100%;
+}
+
+.features-column h3 {
+    margin: 0 0 30px 0;
+}
+
+.features-column p {
+    margin: 0 0 60px 0;
 }
