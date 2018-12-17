@@ -1,0 +1,8 @@
+.download {
+    background-color: #2B9391;
+    padding: 100px 0;
+    font-size: 4.8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

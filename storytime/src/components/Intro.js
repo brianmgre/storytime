@@ -1,5 +1,5 @@
 import React from 'react';
-import './intro.css';
+import '../css/intro.css';
 
 const Intro = props => {
     console.log('intro', props);

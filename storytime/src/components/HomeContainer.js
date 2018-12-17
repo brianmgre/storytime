@@ -4,6 +4,7 @@ import Features from './Features';
 import Video from './Video';
 import AboutUs from './AboutUs';
 import Honor from './Honor';
+import '../css/homeContainer.css';
 
 const HomeContainer = props => {
     return (
@@ -14,7 +15,7 @@ const HomeContainer = props => {
             <AboutUs data={props.data} />
             <Honor data={props.data} />
             <div className='download'>
-                <h3>Download App</h3>
+                <h3>Download StoryTime</h3>
             </div>
 
         </div>

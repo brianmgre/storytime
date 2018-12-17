@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import HomePage from './HomePage';
 import FaqPage from './FaqPage';
 import News from './News';
-import './nav.css';
+import '../css/nav.css';
 
 const Nav = props => {
     console.log('Nav', props)
