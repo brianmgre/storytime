@@ -1,0 +1,27 @@
+.aboutUs-wrapper {
+    background-color: #F8F8F8;
+    padding: 120px 0;
+}
+
+.aboutUs {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.aboutusIpad {
+    width: 30%;
+    height: 100%;
+}
+
+.aboutUsText {
+    width: 48%;
+    padding-right: 50px;
+}
+
+.aboutUsText h2 { 
+    margin: 0 0 60px 0;
+    padding: 0 0 40px 0;
+}
+
