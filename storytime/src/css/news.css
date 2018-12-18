@@ -1,0 +1,28 @@
+.news-wrapper h1 {
+    font-size: 6rem;
+    margin: 30px 0;
+    padding: 100px 0;
+    background-color: #2E9594;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.news-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    align-content: center;
+    border: 1px solid blue;
+}
+
+.indiv-post {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.indiv-post p {
+    width: 50%;
+    padding: 40px;
+}
