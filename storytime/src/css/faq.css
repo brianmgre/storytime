@@ -1,0 +1,24 @@
+.faq-wrapper h1 {
+    font-size: 6rem;
+    padding: 100px 0;
+    background-color: #2E9594;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px 0;
+}
+
+.questions-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.questions-wrapper h4 {
+    font-size: 2rem;
+    padding: 30px 0 10px 0;
+    font-weight: bold;
+}
