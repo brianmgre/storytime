@@ -11,50 +11,58 @@ const Nav = props => {
     return (
         <div className = 'navContainer'>
             <div className='logo-nav-container'>
-            <NavLink to='/'>
-                <img src='https://readstorytime.com/images/logo_nav@2x.png'
-                    className="storyTimeLogo" alt="logo" />
-            </NavLink>
-            <nav>
                 <Link
                     activeClass="active"
                     spy={true}
                     offset={-70}
                     duration={933}
-                    to='features'
+                    to='intro'
                     smooth={true}>
-                    <NavLink to='/'>Features</NavLink>
+                    <NavLink to='/'>
+                        <img src='https://readstorytime.com/images/logo_nav@2x.png'
+                        className="storyTimeLogo" alt="logo" />
+                    </NavLink>
                 </Link>
-                <Link
-                    activeClass="active"
-                    spy={true}
-                    offset={-70}
-                    duration={933}
-                    to='video'
-                    smooth={true}>
-                    <NavLink to='/'>Video</NavLink>
-                </Link>
-                <Link
-                    activeClass="active"
-                    spy={true}
-                    offset={-70}
-                    duration={933}
-                    to='aboutUs'
-                    smooth={true}>
-                    <NavLink to='/'>About Us</NavLink>
-                </Link>
-                <Link
-                    activeClass="active"
-                    spy={true}
-                    offset={-70}
-                    duration={933}
-                    to='honor'
-                    smooth={true}>
-                    <NavLink to='/'>Honor</NavLink>
-                </Link>
-                <NavLink to='/faq'>FAQ</NavLink>
-                <NavLink to='/news'> News</NavLink>
-            </nav>
+                <nav>
+                    <Link
+                        activeClass="active"
+                        spy={true}
+                        offset={-70}
+                        duration={933}
+                        to='features'
+                        smooth={true}>
+                        <NavLink to='/'>Features</NavLink>
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        spy={true}
+                        offset={-70}
+                        duration={933}
+                        to='video'
+                        smooth={true}>
+                        <NavLink to='/'>Video</NavLink>
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        spy={true}
+                        offset={-70}
+                        duration={933}
+                        to='aboutUs'
+                        smooth={true}>
+                        <NavLink to='/'>About Us</NavLink>
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        spy={true}
+                        offset={-70}
+                        duration={933}
+                        to='honor'
+                        smooth={true}>
+                        <NavLink to='/'>Honor</NavLink>
+                    </Link>
+                    <NavLink to='/faq'>FAQ</NavLink>
+                    <NavLink to='/news'> News</NavLink>
+                 </nav>
             </div>
             <section>
                 <Switch>
